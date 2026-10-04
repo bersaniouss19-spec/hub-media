@@ -1,0 +1,28 @@
+{{ define "main" }}
+<section class="media-hero-section">
+  <div class="container">
+    <h1>Media Native | Hub Principal</h1>
+    <p class="subtitle">Flux unifié des publications et productions vidéo.</p>
+  </div>
+</section>
+
+<div class="media-stream-container">
+  <div class="feed-grid">
+    {{ range .Site.RegularPages }}
+      <article class="media-card">
+        <div class="card-meta">
+          <span class="date">{{ .Date.Format "2 janvier 2006" }}</span>
+          {{ if eq .Type "videos" }}
+            <span class="badge video">Vidéo</span>
+          {{ else }}
+            <span class="badge article">Article</span>
+          {{ end }}
+        </div>
+        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        <p>{{ .Summary }}</p>
+        <a href="{{ .RelPermalink }}" class="read-more">Explorer le média &rarr;</a>
+      </article>
+    {{ end }}
+  </div>
+</div>
+{{ end }}
