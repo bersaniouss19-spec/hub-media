@@ -1,7 +1,7 @@
 baseURL = 'https://example.org/'
 languageCode = 'fr-fr'
 title = 'Media Native | Sabar'
-theme = 'ananke'
+theme = 'blowfish'
 paginate = 6
 
 [markup.goldmark.renderer]
@@ -9,7 +9,7 @@ paginate = 6
 
 [params]
   site_author = "Sabar"
-  description = "Média interactif : analyses, vidéos et stratégies."
+  description = "Média interactif : analyses, vidéos"
   background_color_class = "bg-black"
   recent_posts_number = 4
 
@@ -20,15 +20,5 @@ paginate = 6
 
 [[menu.main]]
   name = "Vidéos"
-  pageRef = "/videos"
+  pageRef = "/videos/"
   weight = 2
-
-[[menu.main]]
-  name = "Articles"
-  pageRef = "/posts"
-  weight = 3
-
-[[menu.main]]
-  name = "À propos"
-  pageRef = "/about"
-  weight = 4
