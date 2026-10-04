@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Media Native | Sabar</title>
+		<link>http://localhost:1313/</link>
+		<description>Recent content on Media Native | Sabar</description>
+		<generator>Hugo</generator>
+		<language>fr-fr</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 04 Oct 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Flux Média &amp; Vidéos</title>
+				<link>http://localhost:1313/videos/</link>
+				<pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/videos/</guid>
+				<description>&lt;h2 id=&#34;flux-vidéo-défilant&#34;&gt;Flux Vidéo Défilant&lt;/h2&gt;&#xA;&lt;p&gt;&lt;em&gt;Glisse horizontalement pour faire défiler les contenus vidéo.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;div style=&#34;display: flex; gap: 15px; overflow-x: auto; padding: 15px 0; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch;&#34;&gt;&#xA;  &lt;div style=&#34;flex: 0 0 85%; max-width: 380px; scroll-snap-align: center; background: #111; border-radius: 12px; padding: 12px; color: #fff; box-shadow: 0 4px 10px rgba(0,0,0,0.3);&#34;&gt;&#xA;    &lt;h4 style=&#34;margin: 0 0 10px 0; color: #fff;&#34;&gt;01. Masterclass Copywriting&lt;/h4&gt;&#xA;    &lt;iframe src=&#34;https://www.youtube.com/embed/dQw4w9WgXcQ&#34; style=&#34;width:100%; height:210px; border:0; border-radius:8px;&#34; allowfullscreen&gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div style=&#34;flex: 0 0 85%; max-width: 380px; scroll-snap-align: center; background: #111; border-radius: 12px; padding: 12px; color: #fff; box-shadow: 0 4px 10px rgba(0,0,0,0.3);&#34;&gt;&#xA;    &lt;h4 style=&#34;margin: 0 0 10px 0; color: #fff;&#34;&gt;02. Architecture Média Native&lt;/h4&gt;&#xA;    &lt;iframe src=&#34;https://www.youtube.com/embed/dQw4w9WgXcQ&#34; style=&#34;width:100%; height:210px; border:0; border-radius:8px;&#34; allowfullscreen&gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div style=&#34;flex: 0 0 85%; max-width: 380px; scroll-snap-align: center; background: #111; border-radius: 12px; padding: 12px; color: #fff; box-shadow: 0 4px 10px rgba(0,0,0,0.3);&#34;&gt;&#xA;    &lt;h4 style=&#34;margin: 0 0 10px 0; color: #fff;&#34;&gt;03. Distribution Automatisée&lt;/h4&gt;&#xA;    &lt;iframe src=&#34;https://www.youtube.com/embed/dQw4w9WgXcQ&#34; style=&#34;width:100%; height:210px; border:0; border-radius:8px;&#34; allowfullscreen&gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;h2 id=&#34;indicateurs--widgets&#34;&gt;Indicateurs &amp;amp; Widgets&lt;/h2&gt;&#xA;&lt;div style=&#34;display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; margin: 20px 0;&#34;&gt;&#xA;  &lt;div style=&#34;background: #1a1a1a; color: #fff; padding: 18px; border-radius: 10px; border-left: 4px solid #357dd2;&#34;&gt;&#xA;    &lt;h5 style=&#34;margin:0 0 5px 0; color:#888;&#34;&gt;KPI / AUDIENCE&lt;/h5&gt;&#xA;    &lt;p style=&#34;font-size: 26px; font-weight: bold; margin: 0; color: #357dd2;&#34;&gt;+150%&lt;/p&gt;&#xA;    &lt;p style=&#34;font-size: 13px; margin: 5px 0 0 0; color: #ccc;&#34;&gt;Portée organique moyenne&lt;/p&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div style=&#34;background: #1a1a1a; color: #fff; padding: 18px; border-radius: 10px; border-left: 4px solid #2ecc71;&#34;&gt;&#xA;    &lt;h5 style=&#34;margin:0 0 5px 0; color:#888;&#34;&gt;STATUT DU FLUX&lt;/h5&gt;&#xA;    &lt;p style=&#34;font-size: 18px; font-weight: bold; margin: 0; color: #2ecc71;&#34;&gt;● En direct&lt;/p&gt;&#xA;    &lt;p style=&#34;font-size: 13px; margin: 5px 0 0 0; color: #ccc;&#34;&gt;Canal natif opérationnel&lt;/p&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;</description>
+			</item>
+			<item>
+				<title>Manifeste : Construire un média autonome</title>
+				<link>http://localhost:1313/posts/manifeste/</link>
+				<pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/manifeste/</guid>
+				<description>&lt;p&gt;Bienvenue sur Media Native. Ce socle technique est configuré pour publier des analyses directes sans intermédiaire.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Poser les fondations d&#39;un Média Native</title>
+				<link>http://localhost:1313/posts/lancement-du-media/</link>
+				<pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/lancement-du-media/</guid>
+				<description>&lt;p&gt;Créer son propre canal de distribution est la première étape pour maîtriser son image et son contenu. Ce blog sert de socle pour publier directement, sans intermédiaire.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>À propos</title>
+				<link>http://localhost:1313/about/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/about/</guid>
+				<description>&lt;p&gt;Espace de réflexion et d&amp;rsquo;analyse animé par Sabar. Stratégie de contenu, copywriting et création de médias autonomes.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>
