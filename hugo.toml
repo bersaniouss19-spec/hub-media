@@ -3,6 +3,36 @@ languageCode = 'fr-FR'
 title = 'Media Native'
 theme = 'blowfish'
 
+[params]
+  colorScheme = "system"
+  defaultTheme = "system"
+  showReadingTime = true
+  showAuthor = true
+  
+  [params.homepage]
+    layout = "profile"
+    showRecent = true
+    cardView = true
+
+[params.sidebar]
+  enable = true
+  homepage = true
+  open = true
+
+[menu]
+  [[menu.main]]
+    name = "Accueil"
+    pageRef = "/"
+    weight = 10
+  [[menu.main]]
+    name = "Vidéos"
+    pageRef = "/videos/"
+    weight = 20
+  [[menu.main]]
+    name = "Recherche"
+    pageRef = "/search/"
+    weight = 30
+
 [build]
   noJSConfigInAssets = false
   useResourceCacheWhen = 'fallback'
@@ -21,3 +51,4 @@ theme = 'blowfish'
   enable = false
   keepDirs = ['{**/,}.*']
   keepFiles = ['{**/,}.{git,gitignore,gitattributes}']
+
