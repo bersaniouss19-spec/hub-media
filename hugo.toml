@@ -1,0 +1,51 @@
+baseURL = "http://localhost:1313/"
+locale = "fr-FR"
+title = "Media Native"
+theme = "blowfish"
+
+[params]
+  colorScheme = "default"
+  defaultTheme = "dark"
+  displayName = "Sabar"
+  description = "La plateforme B2B de référence."
+  enableSearch = true
+  enableEmoji = true
+
+[params.homepage]
+  layout = "profile"
+  showRecent = true
+  showRecentCount = 5
+
+[build]
+  useResourceCacheWhen = 'fallback'
+
+[build.buildStats]
+  enable = true
+  disableClasses = false
+  disableIDs = false
+  disableTags = false
+
+[build.cleanDestinationDir]
+  enable = true
+  keepDirs = ['{**/,}.*']
+  keepFiles = ['{**/,}.{git,gitignore,gitattributes}']
+
+[[build.cachebusters]]
+  source = '(postcss|tailwind)\.config\.(js|mjs|cjs)'
+  target = '(css|styles|scss|sass)'
+
+[[build.cachebusters]]
+  source = 'assets/notwatching/hugo_stats\.json'
+  target = 'css'
+
+[module]
+  [[module.mounts]]
+    source = 'assets'
+    target = 'assets'
+  [[module.mounts]]
+    disableWatch = true
+    source = 'hugo_stats.json'
+    target = 'assets/notwatching/hugo_stats.json'
+
+[security.exec]
+  allow = ['^(dart-)?sass$', '^go$', '^git$', '^node$', '^postcss$', '^tailwindcss$']
